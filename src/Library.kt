@@ -1,10 +1,3 @@
-data class Book(
-    val title: String,
-    val author: String,
-    val isbn: String,
-    val isReference: Boolean
-)
-
 class Library {
     private val books = mutableListOf<Book>()
     private val borrowedBooks = mutableSetOf<Book>()
