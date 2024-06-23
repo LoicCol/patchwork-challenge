@@ -37,7 +37,7 @@ fun main() {
     println("Number of borrowed books: $borrowedBooksCount")
 
     // Preventing borrowing of reference books
-    val firstBookAuthorB = library.findBooksByAuthor("Author A").first()
+    val firstBookAuthorB = library.findBooksByAuthor("Author B").first()
     val isReferenceBorrowed = library.borrowBook(firstBookAuthorB)
     println("Reference book borrowed: $isReferenceBorrowed")
 }
